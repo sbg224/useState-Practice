@@ -1,0 +1,13 @@
+.solution {
+  margin: 1rem 2rem;
+
+  div {
+    margin: 1rem 0;
+
+    button {
+      display: inline-flex;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+}

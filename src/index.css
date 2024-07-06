@@ -24,7 +24,7 @@ button {
   aspect-ratio: 3/0.5;
 }
 
-a{
+a {
   color: #ffffffde;
 }
 
@@ -52,7 +52,11 @@ a{
   display: inline-flex;
   margin-top: 20px;
   padding: 10px;
-  background-color: #383838;
+  background-color: #161616;
   border: 1px solid #464646;
   border-radius: 5px;
+
+  .cm-line {
+    padding-left: 15px;
+  }
 }
