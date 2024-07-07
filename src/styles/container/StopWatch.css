@@ -1,0 +1,17 @@
+#stopWatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font:
+      2rem monospace,
+      sans-serif;
+    border: 5px solid var(--white);
+    border-radius: 5px;
+  }
+}

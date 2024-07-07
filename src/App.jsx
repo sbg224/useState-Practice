@@ -6,6 +6,8 @@ import Exercice4 from "./components/Exercice4.jsx";
 import Exercice5 from "./components/Exercice5.jsx";
 import Exercice6 from "./components/Exercice6.jsx";
 import "./styles/Exercices.css";
+import Exercice7 from "./components/Exercice7.jsx";
+import Exercice8 from "./components/Exercice8.jsx";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Exercice4 />
       <Exercice5 />
       <Exercice6 />
+      <Exercice7 />
+      <Exercice8 />
     </>
   );
 }
