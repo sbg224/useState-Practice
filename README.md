@@ -142,5 +142,31 @@ export default Counter;
 
 ### Explication
 
-1. `setCount(prevCount => prevCount + 1)`
+   `setCount(prevCount => prevCount + 1)`
    - Utilise une fonction qui prend la valeur précédente de l'état (`prevCount`) et renvoie la nouvelle valeur de l'état (`prevCount + 1`).
+
+
+### Utilisation avec un état booléen
+
+Pour un exemple utilisant un état booléen, comme un interrupteur :
+
+```jsx
+import { useState } from 'react';
+
+function Toggle() {
+  const [isOn, setIsOn] = useState(false);
+
+  return (
+    <div>
+      <p>Le commutateur est {isOn ? 'Allumé' : 'Éteint'}</p>
+      <button onClick={() => setIsOn(prevIsOn => !prevIsOn)}>
+        Basculer
+      </button>
+    </div>
+  );
+}
+
+export default Toggle;
+```
+
+Ici, `setIsOn(prevIsOn => !prevIsOn)` inverse simplement la valeur actuelle de `isOn` à chaque clic sur le bouton en utilisant la fonction de mise à jour de l'état avec `!prevIsOn`.
