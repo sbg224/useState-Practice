@@ -1,7 +1,9 @@
 :root {
+  --white: #ffffffde;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color: #ffffffde;
   background-color: #242424;
+  color: var(--white);
 }
 
 * {
@@ -16,7 +18,7 @@ body {
 }
 
 button {
-  color: #ffffffde;
+  color: var(--white);
   border-radius: 15px;
   background-color: #242424;
   padding: 0.3rem;
@@ -25,7 +27,7 @@ button {
 }
 
 a {
-  color: #ffffffde;
+  color: var(--white);
 }
 
 .violet {
