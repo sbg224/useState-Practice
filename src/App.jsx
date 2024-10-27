@@ -10,19 +10,19 @@ import Exercice7 from "./components/Exercice7.jsx";
 import Exercice8 from "./components/Exercice8.jsx";
 
 function App() {
-  return (
-    <>
-      <Introduction />
-      <Exercice1 />
-      <Exercice2 />
-      <Exercice3 />
-      <Exercice4 />
-      <Exercice5 />
-      <Exercice6 />
-      <Exercice7 />
-      <Exercice8 />
-    </>
-  );
+	return (
+		<>
+			<Introduction />
+			<Exercice1 />
+			<Exercice2 />
+			<Exercice3 />
+			<Exercice4 />
+			<Exercice5 />
+			<Exercice6 />
+			<Exercice7 />
+			<Exercice8 />
+		</>
+	);
 }
 
 export default App;
